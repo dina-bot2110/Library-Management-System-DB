@@ -13,13 +13,13 @@ This database is built to answer 6 main business questions:
 6. Which books have high demand compared to available copies? (Inventory planning)
 
 ## 🗄️ Database Schema
-The database consists of 10 core tables to ensure data integrity and avoid redundancy:
+The database consists of 9 core tables to ensure data integrity and avoid redundancy:
 - `users` (Members)
 - `books` (Titles)
 - `copies` (Physical copies)
 - `loans` (Borrowing transactions)
 - `reservations` (Book requests)
-- `categories`, `authors`, `book_authors`, `fines`, `roles`.
+- `categories`, `authors`, `book_authors`, `fines`.
 
 ## ⚙️ Technologies Used
 - **Database:** MySQL
